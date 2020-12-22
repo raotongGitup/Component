@@ -1,0 +1,8 @@
+include ':router_core'
+include ':router_compiler'
+include ':router_annotation'
+include ':moudle2'
+include ':moudle1'
+include ':base'
+include ':app'
+rootProject.name = "Component"

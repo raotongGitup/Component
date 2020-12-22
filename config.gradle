@@ -1,0 +1,58 @@
+ext {
+    //true 是集成模式
+    // fase 组件模式
+
+    isMoudle = false;
+    android = [
+            compileSdkVersion: 30,
+            buildToolsVersion: "30.0.3",
+            minSdkVersion    : 16,
+            targetSdkVersion : 30,
+            versionCode      : 1,
+            versionName      : "1.0"
+
+    ]
+    appId = [
+            "app"        : "com.example.component",
+            "base"       : "com.example.base",
+            "moudle1"    : "com.example.moudle1",
+            "moudle2"    : "com.example.moudle2",
+            "router_core": "com.example.router_core"
+    ]
+    base = [
+            compileSdkVersion: 30,
+            buildToolsVersion: "30.0.3",
+            minSdkVersion    : 16,
+            targetSdkVersion : 30,
+            versionCode      : 1,
+            versionName      : "1.0"
+    ]
+    moudle1 = [
+            compileSdkVersion: 30,
+            buildToolsVersion: "30.0.3",
+            minSdkVersion    : 16,
+            targetSdkVersion : 30,
+            versionCode      : 1,
+            versionName      : "1.0"
+
+    ]
+    moudle2 = [
+            compileSdkVersion: 30,
+            buildToolsVersion: "30.0.3",
+            minSdkVersion    : 16,
+            targetSdkVersion : 30,
+            versionCode      : 1,
+            versionName      : "1.0"
+
+    ]
+    router_core = [
+            compileSdkVersion: 30,
+            buildToolsVersion: "30.0.3",
+            minSdkVersion    : 16,
+            targetSdkVersion : 30,
+            versionCode      : 1,
+            versionName      : "1.0"
+
+    ]
+
+}
